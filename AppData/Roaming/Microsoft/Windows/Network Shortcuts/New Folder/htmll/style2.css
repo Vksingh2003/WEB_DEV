@@ -70,3 +70,10 @@ div[id="vk"] p{
 nav ul li a {
     color: pink;
 }
+p+h3{
+    color:blue;
+    text-decoration: underline;
+}
+.upvote+button{
+    color: yellowgreen;
+}
