@@ -105,3 +105,15 @@ input[type="radio"]:checked + label{
     color: red;
     font-weight:bold;
 }
+div:nth-of-type(2n){
+    background: hotpink;
+}
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    color:rgb(14, 230, 14);
+}
+p::selection{
+    color: yellow;
+}
