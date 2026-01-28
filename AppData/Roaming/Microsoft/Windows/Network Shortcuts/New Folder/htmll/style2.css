@@ -77,3 +77,31 @@ p+h3{
 .upvote+button{
     color: yellowgreen;
 }
+/* input[type="text"]{ attribute selector .
+    color:blue;
+
+}
+input[type="password"]{  attribute selector .
+    color: aqua;
+} */
+input[type]{   
+    color:blue;
+}
+button:hover{
+    background: #000;
+    color:#fff;
+}
+h3:hover{
+    color: #000;
+    text-decoration: underline;
+}
+button:active{
+    background-color: hotpink;
+}
+p:active{
+    color:darkorange;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight:bold;
+}
